@@ -24,9 +24,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportActionBar?.hide()        //Used to hide Action Bar
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)    //Used to hide status bar
-
         java = findViewById(R.id.checkBox1)
         cpp = findViewById(R.id.checkBox2)
         kotlin = findViewById(R.id.checkBox3)
